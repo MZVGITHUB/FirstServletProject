@@ -7,12 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Welcome</h1>
+	<h1>Welcome </h1>
+	<h3>updated</h3>
+	<form action="FirstServlet" method="get">
+		<input type="submit" value="servlet">
+	</form>
+	<form action="FirstJsp.jsp" method="get">
+		<input type="submit" value="JSP">
+	</form>
 </body>
-<form action="FirstServlet" method="get">
-	<input type="submit" value="servlet">
-</form>
-<form action="FirstJsp.jsp" method="get">
-	<input type="submit" value="JSP">
-</form>
+
 </html>
